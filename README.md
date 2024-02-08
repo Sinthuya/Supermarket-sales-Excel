@@ -15,11 +15,6 @@ I began by converting the data into a table with columns that has filters.
 inserted dollar sign for the data in the columns unit price, Total, Cogs. Tax and Gross income to inidcate money value
 insertyed percentage sign for the Gross margin percentage column
 
-### Explanatory data analysis (EDA)
-To identify patterns
-
-![image](https://github.com/Sinthuya/Supermarket-sales-Excel/assets/150496788/62d9e671-43a0-47d1-881a-faf6f33772a2)
-
 ### Descriptive statistics analysis
 
 ![image](https://github.com/Sinthuya/Supermarket-sales-Excel/assets/150496788/7773f526-ccf4-4cf0-93b5-95f60586fee7)
@@ -48,10 +43,15 @@ These insights provide a comprehensive overview of the key metrics, helping to u
 
 ![image](https://github.com/Sinthuya/Supermarket-sales-Excel/assets/150496788/eedd3ce5-96b3-400b-8cc6-06ecb74bbb11)
 
-The results of this analysis provide an overview of the contribution of sales from each product category to the overall total sales. Food and beverages emerge as the highest-selling category closely folloowed by otherts.
+The results of this analysis provide an overview of the contribution of sales from each product category to the overall total sales. Food and beverages emerge as the highest-selling category closely folloowed by others.
 
 ### Top sales by branch analysis
 
 ![image](https://github.com/Sinthuya/Supermarket-sales-Excel/assets/150496788/80ad378e-e5a5-4da0-bd92-7c952743cefb)
 
 The analysis of total sales by branch provides insights into the performance of each branch within the supermarket. Branch C stands out as the leading contributor to total sales, indicating its significance in the supermarket's revenue generation.
+
+### Customer g analysis
+
+This Customer Profile and Rating Analysis provide a comprehensive view of the customer base and their satisfaction levels, guiding strategic decisions for improved customer experience and business growth.
+Members (50.1%) constituted for just over half of the of the customer base compared to non-menbers (49.9%). Gender distribution was eqaual among males and females. The average customer rating across all sales is 7/10.The majority of customers seem to be satisfied, as reflected in the average rating. 20% of the rating was 7/10, closely followed by 17% for 9/10 and 16% for 6/10.
