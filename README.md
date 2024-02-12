@@ -3,7 +3,6 @@
 ### Project overview
 This data analysis project aims to analyse the historical sales data of a supermarket company which has recorded in three different branches for three months.I havee used Microsoft Excel to complete this project.
 
-
 ### Data sources
 Kaggle: https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
 
@@ -51,7 +50,7 @@ The results of this analysis provide an overview of the contribution of sales fr
 
 The analysis of total sales by branch provides insights into the performance of each branch within the supermarket. Branch C stands out as the leading contributor to total sales, indicating its significance in the supermarket's revenue generation.
 
-### Customer g analysis
+### Customer analysis
 
 This Customer Profile and Rating Analysis provide a comprehensive view of the customer base and their satisfaction levels, guiding strategic decisions for improved customer experience and business growth.
 Members (50.1%) constituted for just over half of the of the customer base compared to non-menbers (49.9%). Gender distribution was eqaual among males and females. The average customer rating across all sales is 7/10.The majority of customers seem to be satisfied, as reflected in the average rating. 20% of the rating was 7/10, closely followed by 17% for 9/10 and 16% for 6/10.
