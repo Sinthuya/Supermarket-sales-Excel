@@ -1,7 +1,7 @@
 # Supermarket_sales
 
 ### Project overview
-This data analysis project aims to analyse the historical sales data of a supermarket company which has recorded in three different branches for three months.I havee used Microsoft Excel to complete this project.
+This data analysis project aims to analyse the historical sales data of a supermarket company which has recorded in three different branches for three months. I have used Microsoft Excel to complete this project.
 
 ### Data sources
 Kaggle: https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
@@ -10,9 +10,11 @@ Kaggle: https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
 - Microsoft Excel - data cleaning, analysis and visualisation
 
 ### Data preparation - cleaning and formatting
-I began by converting the data into a table with columns that has filters.
-inserted dollar sign for the data in the columns unit price, Total, Cogs. Tax and Gross income to inidcate money value
-insertyed percentage sign for the Gross margin percentage column
+I took the following steps:
+converted the data into a table with columns that has filters.
+Inserted dollar sign for the data in the columns unit price, Total, Cogs. Tax and Gross income to indicate money value.
+Inserted percentage sign for the Gross margin percentage column
+created a new column for Rating and deleted the original column to make the rating a single number. I used the =FLOOR(Q2,1) formula.
 
 ### Descriptive statistics analysis
 
@@ -26,8 +28,8 @@ Understanding the distribution of unit prices can help the supermarket company i
 
 ##### Quantity:
 - Average Quantity Ordered: On average, each transaction involves a quantity of 5.51 items. 
-- Variability in Quantity Ordered:The standard deviation of quantity ordered is about 2.92, suggesting some variability in the quantity of items per transaction.
-Analysing quantity ordered provides insights into customer purchasing behavior and inventory management, and demand forecasting, enabling the company to optimise stock levels and improve supply chain efficiency.
+- Variability in Quantity Ordered: The standard deviation of quantity ordered is about 2.92, suggesting some variability in the quantity of items per transaction.
+Analysing quantity ordered provides insights into customer purchasing behaviour and inventory management, and demand forecasting, enabling the company to optimise stock levels and improve supply chain efficiency.
 
 ##### Total Sales:
 - Total Sales: The combined total sales for all stores amount to $322,966.75.
@@ -38,7 +40,7 @@ Monitoring total sales helps the company track revenue, identify high-performing
 ##### Gross Income:
 - Average Gross Income: The average gross income across all stores is $15.38.
 - Distribution of Gross Income: The standard deviation in gross income is about $11.71, indicating variability in the income generated.
-Analyzing gross income provides insights into profit margins and the effectiveness of pricing and promotional strategies which enables the company to optimise profitability.
+Analysing gross income provides insights into profit margins and the effectiveness of pricing and promotional strategies which enables the company to optimise profitability.
 
 These insights provide a comprehensive overview of the key metrics, helping to understand the distribution and patterns in the data. The variability metrics (standard deviation) indicate the extent of dispersion around the mean values, providing valuable insights into the overall performance across all three stores.
 
@@ -46,7 +48,7 @@ These insights provide a comprehensive overview of the key metrics, helping to u
 
 ![image](https://github.com/Sinthuya/Supermarket-sales-Excel/assets/150496788/eedd3ce5-96b3-400b-8cc6-06ecb74bbb11)
 
-The results of this analysis provide an overview of the contribution of sales from each product category to the overall total sales. Food and beverages emerge as the highest-selling category closely folloowed by others. This analysis helps the company focus on marketing efforts and allocate resources effectively.
+The results of this analysis provide an overview of the contribution of sales from each product category to the overall total sales. Food and beverages emerge as the highest-selling category closely followed by others. This analysis helps the company focus on marketing efforts and allocate resources effectively.
 
 ### Top sales by branch analysis
 
@@ -57,9 +59,9 @@ The analysis of total sales by branch provides insights into the performance of 
 ### Customer analysis
 
 This Customer Profile and Rating Analysis provide a comprehensive view of the customer base and their satisfaction levels, guiding strategic decisions for improved customer experience and business growth.
-Members (50.1%) constituted for just over half of the of the customer base compared to non-menbers (49.9%). Gender distribution was eqaual among males and females. The average customer rating across all sales is 7/10.The majority of customers seem to be satisfied, as reflected in the average rating. 20% of the rating was 7/10, closely followed by 17% for 9/10 and 16% for 6/10.
+Members (50.1%) constituted for just over half of the of the customer base compared to non-members (49.9%). Gender distribution was equal among males and females. The average customer rating across all sales is 7/10. The majority of customers seem to be satisfied, as reflected in the average rating. 20% of the rating was 7/10, closely followed by 17% for 9/10 and 16% for 6/10.
 This analysis helps the business to tailor marketing strategies, enhance customer experiences, and build stronger relationships with customers, ultimately leading to increased loyalty.
 
 ![image](https://github.com/Sinthuya/Supermarket-sales-Excel/assets/150496788/fdeabb48-18fc-476c-8cd2-f604cc259cc8)
 
-In conclusion, the analysis of the supermarket sales data underscores the significance of understanding sales distribution, branch performance, and customer satisfaction for strategic decision-making. The dominance of certain product categories, particularly Food and beverages, emphasizes targeted marketing opportunities. Branch C's significant contribution underscores the need for branch-level performance evaluation. Moreover, high customer satisfaction levels and gender parity among members and non-members emphasize the importance of maintaining exceptional customer experiences. Leveraging these insights can drive sales growth, operational efficiency, and customer loyalty, ensuring sustained competitiveness in the retail sector.
+In conclusion, the analysis of the supermarket sales data underscores the significance of understanding sales distribution, branch performance, and customer satisfaction for strategic decision-making. The dominance of certain product categories, particularly Food and beverages, emphasises targeted marketing opportunities. Branch C's significant contribution underscores the need for branch-level performance evaluation. Moreover, high customer satisfaction levels and gender parity among members and non-members emphasise the importance of maintaining exceptional customer experiences. Leveraging these insights can drive sales growth, operational efficiency, and customer loyalty, ensuring sustained competitiveness in the retail sector.
